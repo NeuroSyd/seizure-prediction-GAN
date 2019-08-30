@@ -1,0 +1,9 @@
+{
+  "dataset": "CHBMIT",
+  "stftdir": "/mnt/data3_M2/tempdata",
+  "datadir": "/mnt/data4/datasets/seizure/CHB-MIT",
+  "cachedir": "/mnt/data5_2T/tempdata/CHBMIT_SZPred_GAN",
+  "ganckptdir": "/mnt/data5_2T/tempdata/CHBMIT_SZPred_GAN/ganckptdir",
+  "cnnckptdir": "/mnt/data5_2T/tempdata/CHBMIT_SZPred_GAN/cnnckptdir",
+  "resultdir": "results"
+}

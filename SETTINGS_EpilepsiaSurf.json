@@ -1,0 +1,10 @@
+{
+  "dataset": "EpilepsiaSurf",
+  "stftdir": "/mnt/data7_M2/tempdata",
+  "stftdir2": "/mnt/data7_M2/tempdata",
+  "datadir": "/mnt/data4/European_Epilepsy_Datasets/data/surf30",
+  "cachedir": "/mnt/data5_2T/tempdata/EpilepsiaSurf_SZPred_GAN",
+  "ganckptdir": "/mnt/data7_M2/tempdata/EpilepsiaSurf_SZPred_GAN_PS_uspl/ganckptdir",
+  "cnnckptdir": "/mnt/data7_M2/tempdata/EpilepsiaSurf_SZPred_GAN_PS_uspl/cnnckptdir",  
+  "resultdir": "results-ps-uspl"
+}

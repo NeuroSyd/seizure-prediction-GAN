@@ -1,0 +1,9 @@
+{
+  "dataset": "FB",
+  "stftdir": "/mnt/data3_M2/tempdata",
+  "datadir": "/mnt/data4/datasets/seizure/FreiBurgDataSet",
+  "cachedir": "/mnt/data5_2T/tempdata/FB_SZPred_GAN",
+  "ganckptdir": "/mnt/data5_2T/tempdata/FB_SZPred_GAN/ganckptdir",
+  "cnnckptdir": "/mnt/data5_2T/tempdata/FB_SZPred_GAN/cnnckptdir",
+  "resultdir": "results-FB"
+}
