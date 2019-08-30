@@ -21,7 +21,7 @@ Truong, N. D., L. Kuhlmann, M. R. Bonyadi, D. Querlioz, L. Zhou, and O. Kavehei 
 
 2. Prepare preprocessed data for DCGAN training. A large storage is required.
 > python3 main.py --mode save_STFT --dataset DATASET
-DATASET can be FB, CHBMIT or EpilepsiaSurf.
+* DATASET can be FB, CHBMIT or EpilepsiaSurf.
 
 3. Train DCGAN model.
 > python3 main.py --mode dcgan --dataset DATASET
