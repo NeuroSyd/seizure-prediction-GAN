@@ -3,6 +3,12 @@
 ##### Code to reproduce results reported in our paper published as:
 Truong, N. D., L. Kuhlmann, M. R. Bonyadi, D. Querlioz, L. Zhou, and O. Kavehei (2019). "Epileptic Seizure Forecasting with Generative Adversarial Networks." _IEEE Access_, accepted with minor revisions.
 
+![Overall  AUC](imgs/auc.png)
+*Receiver operating characteristics (ROC) curves of seizure forecasting performance testing for different patients of
+the three datasets: (a) - the CHB-MIT sEEG dataset, (b) - the Freiburg Hospital iEEG dataset, and (c) - the EPILEPSIAE
+sEEG dataset. Each line corresponds to one patient. Above the green dash line: good performance; above the blue dash
+line: very good performance.*
+
 #### Requirements
 
 * hickle==3.4.3
