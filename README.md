@@ -26,17 +26,17 @@ line: very good performance.*
 1. Set the paths in \*.json files. Copy files in folder "copy-to-CHBMIT" to your CHBMIT dataset folder.
 
 2. Prepare preprocessed data for DCGAN training. A large storage is required.
-```python
+```console
 python3 main.py --mode save_STFT --dataset DATASET
 ```
 * DATASET can be FB, CHBMIT or EpilepsiaSurf (auxiliary files for EPILEPSIA Surface dataset are not uploaded here, available upon request) .
 
 3. Train DCGAN model.
-```python
+```console
 python3 main.py --mode dcgan --dataset DATASET
 ```
 
 4. Leave-one-seizure-out cross-validation.
-```python
+```console
 python3 main.py --mode cvgan --dataset DATASET
 ```
